@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: .3s;
+}
+
+.Operator h2 {
+    margin: 40px 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.operatorGuessr p {
+    font-size: 30px;
+    font-weight: bold;
+}
+.Operator {
+    margin: 100px 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Code {
+    width: 100px;
+}
+
+.input span {
+    font-size: 30px;
+}
+
+.Operator button {
+    margin: 50px 0;
+    width: 200px;
+    border-radius: 15px;
+    border: 1px solid lightgray;
+    width: 200px;
+    height: 100px;
+    padding: 15px;
+    font-size: 24px;
+    background-color: greenyellow;
+    color: white;
+}
+
+.input input {
+    outline: none;
+    width: 250px;
+    border-radius: 15px;
+    border: 1px solid lightgray;
+    width: 300px;
+    height: 50px;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.Operator button:hover {
+    border-radius: 15px
+}
+
+.Operator button:active {
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+    border-radius: 15px
+}
